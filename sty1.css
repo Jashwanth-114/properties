@@ -1,0 +1,596 @@
+.start {
+  background-image: url(w32.avif);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.start h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 42px;
+  word-spacing: 20px;
+  margin-top: 100px;
+}
+.start p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: rgb(198, 198, 81);
+}
+span {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+span input {
+  width: 300px;
+  height: 30px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+span button {
+  width: 100px;
+  height: 30px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+body {
+  background-color: aqua;
+}
+
+.html {
+  
+  display: inline-block;
+}
+.content {
+  background-color: rgb(202, 219, 211);
+  width: 100%;
+  height: 100vh;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.html {
+  margin-top: 20vh;
+  margin-left: 40vh;
+}
+.html h2 {
+  border: 1vh solid green;
+  border-radius: 2vh;
+  background-color: green;
+  color: #ccc;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  text-align: right;
+}
+.html h1 {
+  display: inline-block;
+}
+.html h2 {
+  display: inline-block;
+}
+.html p {
+  display: inline-block;
+}
+.con {
+  float: right;
+  margin-top: 20vh;
+  margin-right: 40vh;
+
+  box-sizing: border-box;
+  border: 2px;
+  background-color:darkgrey ;
+  width: 65vh;
+  height: 65vh;
+  border-radius: 10px;
+  text-align: left;
+   box-shadow: 0px 0px 5px 5px aqua;
+}
+.con h3{
+    margin-right: 45vh;
+    margin-top: 2vh;
+    
+}
+.con1{
+    margin-left: 8vh;
+    margin-top: 5vh;
+    box-sizing: border-box;
+    border: 1vh;
+    width: 50vh;
+    height: 50vh;
+    background-color: aliceblue;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 5px 5px aqua;
+}
+.con1 p{
+    padding: 8vh;
+    color: brown;
+}
+.content1 {
+    background-color: rgb(235, 235, 143);
+    width: 100%;
+    height: 100vh;
+  }
+.content2 {
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+  }
+.content3 {
+    background-color: rgb(248, 214, 184);
+    width: 100%;
+    height: 100vh;
+  }
+.content4 {
+    background-color:rgb(233, 199, 135);
+    width: 100%;
+    height: 100vh;
+   
+  }
+  .type{
+    background-color: black;
+    width: 100%;
+    height: 300vh;
+    
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .php{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 43%;
+    height: 30vh;
+    background-color: pink;
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+  .php h1{
+    padding: 5vh;
+  }
+  .jQuery{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 43%;
+    height: 30vh;
+    background-color: rgb(233, 233, 109);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:'Times New Roman', Times, serif ;
+  }
+  .jQuery h1{
+    padding: 5vh;
+  }
+  .java{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 43%;
+    height: 30vh;
+    background-color: rgb(199, 235, 235);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:sans-serif;
+  }
+  .java h1{
+    padding: 5vh;
+  }
+  .c{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 43%;
+    height: 30vh;
+    background-color:skyblue;
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  .c h1{
+    padding: 5vh;
+  }
+  .cs{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 43%;
+    height: 30vh;
+    background-color:rgb(204, 91, 114);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+  .cs h1{
+    padding: 5vh;
+  }
+  .boot{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 43%;
+    height: 30vh;
+    background-color: rgb(218, 177, 101);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  .boot h1{
+    padding: 5vh;
+  }
+  .cc{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 43%;
+    height: 30vh;
+    background-color:violet;
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  .cc h1{
+    padding: 10vh;
+   
+  }
+  .ccc{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 43%;
+    height: 30vh;
+    background-color: violet;
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  .ccc h1{
+    padding: 10vh;
+  }
+  .r{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(227, 238, 130);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  .r h1{
+    padding: 4vh;
+  }
+  .kotlin{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(238, 130, 161);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  .kotlin h1{
+    padding: 4vh;
+  }
+  .node{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(130, 202, 238);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  .node h1{
+    padding: 4vh;
+  }
+  .react{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(207, 238, 130);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  .react h1{
+    padding: 4vh;
+  }
+  .json {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(130, 238, 159);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:Arial, Helvetica, sans-serif ;
+  }
+  .json h1{
+    padding: 4vh;
+  }
+  .json1 {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(130, 220, 238);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:Arial, Helvetica, sans-serif ;
+  }
+  .json1 h1{
+    padding: 4vh;
+  }
+  .json2 {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(238, 130, 216);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:Arial, Helvetica, sans-serif ;
+  }
+  .json2 h1{
+    padding: 4vh;
+  }
+  .json3{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(238, 170, 130);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:Arial, Helvetica, sans-serif ;
+  }
+  .json3 h1{
+    padding: 4vh;
+  }
+  .saas{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(112, 52, 18);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:monospace ;
+  }
+  .saas h1{
+    padding: 4vh;
+  }
+  .saas1{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(184, 130, 238);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:monospace ;
+  }
+  .saas1 h1{
+    padding: 4vh;
+  }
+  .saas2{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(238, 130, 141);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:monospace ;
+  }
+  .saas2 h1{
+    padding: 4vh;
+  }
+  .saas3{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(161, 130, 238);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:monospace ;
+  }
+  .saas3 h1{
+    padding: 4vh;
+  }
+  .svg{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(130, 215, 238);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:serif;
+  }
+  .svg h1{
+    padding: 4vh;
+  }
+  .svg1{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(238, 130, 227);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:serif ;
+  }
+  .svg1 h1{
+    padding: 4vh;
+  }
+  .svg2{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(224, 238, 130);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:serif ;
+  }
+  .svg2 h1{
+    padding: 4vh;
+  }
+  .svg3{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(238, 130, 132);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:serif ;
+  }
+  .svg3 h1{
+    padding: 4vh;
+  }
+  .git{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(238, 130, 231);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  }
+  .git h1{
+    padding: 4vh;
+  }
+  .git1{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(238, 166, 130);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  }
+  .git1 h1{
+    padding: 4vh;
+  }
+  .git2{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(130, 238, 204);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  }
+  .git2 h1{
+    padding: 4vh;
+  }
+  .git3{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1vh ;
+    width: 19%;
+    height: 15vh;
+    background-color: rgb(130, 159, 238);
+   margin-top: 10vh;
+   margin-left: 10vh;
+   text-align: center;
+   border-radius: 2vh;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  }
+  .git3 h1{
+    padding: 4vh;
+  }
